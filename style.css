@@ -1,0 +1,30 @@
+body, ul, li {
+  margin: 0;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  display: block;
+  background-color:
+  height: auto;
+  margin-top: auto;
+}
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 25px;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
