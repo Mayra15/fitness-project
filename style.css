@@ -10,7 +10,6 @@ body {
 
 nav {
   display: block;
-  background-color:
   height: auto;
   margin-top: auto;
 }
@@ -59,4 +58,32 @@ nav ul li {
 
 span {
   color: #bebebe;
+}
+
+.social {
+  color: #bebebe;
+  display: inline;
+  float: right;
+  padding-top: 12px;
+}
+
+.social i {
+  padding: 0 10px;
+}
+
+#carousel-example-generic {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #E9E9E9;
+}
+
+#carousel-example-generic .left {
+  background-image: none;
+  border: 0;
+}
+
+
+#carousel-example-generic .right {
+  background-image: none;
+  border: 0;
 }
