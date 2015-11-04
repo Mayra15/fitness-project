@@ -28,6 +28,10 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.spacer {
+  padding-top: 58px;
+}
+
 .first {
   background-color: #2497d5;
   height: 90px;
