@@ -12,6 +12,7 @@ nav {
   display: block;
   height: auto;
   margin-top: auto;
+  padding-bottom: 60px;
 }
 nav a {
   text-decoration: none;
@@ -76,6 +77,7 @@ span {
 }
 
 #carousel-example-generic {
+  padding-top: 58px;
   width: 100%;
   margin: 0 auto;
   background-color: #E9E9E9;
@@ -90,4 +92,13 @@ span {
 #carousel-example-generic .right {
   background-image: none;
   border: 0;
+}
+
+.container-fluid {
+  background-color: #E9E9E9;
+}
+
+.popular {
+  background-color: black;
+  color: white;
 }
