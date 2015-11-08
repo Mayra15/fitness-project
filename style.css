@@ -113,7 +113,9 @@ span {
   display: block;
   opacity 1;
   margin-bottom: 20px;
-  list-style: none;
   background-color: #E9E9E9;
 }
 
+.flex-direction-nav ul li {
+  list-style: none;
+}
