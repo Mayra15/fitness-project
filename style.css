@@ -102,3 +102,17 @@ span {
   background-color: black;
   color: white;
 }
+
+.popular p {
+  color: gray;
+}
+
+.flex-direction-nav {
+  display: block;
+  opacity:1;
+  margin-bottom: 20px;
+}
+
+.flex-direction-nav ul li {
+  list-style: none;
+}
