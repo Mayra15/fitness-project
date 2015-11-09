@@ -29,10 +29,6 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.spacer {
-  padding-top: 58px;
-}
-
 .first {
   background-color: #2497d5;
   height: 90px;
@@ -95,7 +91,13 @@ span {
 }
 
 .container-fluid {
+
   background-color: #E9E9E9;
+}
+
+.spacer {
+
+  margin-top: 30px;
 }
 
 .popular {
@@ -107,12 +109,19 @@ span {
   color: gray;
 }
 
-.flex-direction-nav {
-  display: block;
-  opacity:1;
-  margin-bottom: 20px;
+#carousel-1 {
+  padding-top: 20px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #E9E9E9;
 }
 
-.flex-direction-nav ul li {
-  list-style: none;
+#carousel-1 .left {
+  background-image: none;
+  border:0;
+}
+
+#carousel-1 .right {
+  background-image: none;
+  border: 0;
 }
