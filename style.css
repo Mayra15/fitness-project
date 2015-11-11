@@ -125,3 +125,21 @@ span {
   background-image: none;
   border: 0;
 }
+<<<<<<< HEAD
+=======
+
+#carousel-2 .left {
+  background-image: none;
+  border:0;
+}
+
+#carousel-2 .right {
+  background-image: none;
+  border:0;
+}
+
+footer {
+  background-color: black;
+
+}
+>>>>>>> gh-pages
