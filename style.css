@@ -136,7 +136,29 @@ span {
   border:0;
 }
 
+#carousel-2 {
+  padding-bottom: 20px;
+}
+
 footer {
   background-color: black;
+  width: 100%;
+  padding-top: 50px;
 
+}
+.footer-1, .footer-3 {
+  background-color: #87BD65;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.footer-2 {
+  background-color: #91CE6B;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.footer-4 .col-md-4 {
+  padding-top: 20px;
+  display: inline-block;
 }
