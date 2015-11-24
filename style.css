@@ -114,15 +114,7 @@ span {
   color: gray;
 }
 
-
-/*.flexslider {
-  padding-top: 20px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #E9E9E9;
-}*/
-
-.arrows ul li {
+/*.arrows ul li {
   display: inline;
 
 }
@@ -136,15 +128,39 @@ span {
   background-image: none;
   border: 0;
 }
+*/
 
-.flexslider ul li {
-  display: inline-block;
-  padding: 0 200px;
-  margin: 0;
+
+
+#carousel-1 .left {
+  background-image: none;
+  border:0;
+}
+
+#carousel-1 .right {
+  background-image: none;
+  border:0;
+}
+
+#carousel-1 {
+  padding-bottom: 20px;
+  float: right;
+}
+
 
 }
 
-/*#carousel-2 .left {
+.trainers {
+  background-color: #87bd65;
+  color: white;
+  float: left;
+  position: absolute;
+  height: 200px;
+  padding: 20px 0;
+  width:  180px;
+}
+
+#carousel-2 .left {
   background-image: none;
   border:0;
 }
@@ -156,8 +172,9 @@ span {
 
 #carousel-2 {
   padding-bottom: 20px;
+  float: right;
 }
-*/
+
 
 footer {
   background-color: black;
