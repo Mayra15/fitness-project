@@ -11,7 +11,7 @@ body {
 nav {
   display: block;
   height: auto;
-  margin-top: auto;
+  float:  right;
   padding-bottom: 60px;
 }
 nav a {
@@ -24,8 +24,8 @@ nav a {
 
 nav ul li {
   display: inline;
-  float: right;
   padding: 20px 0;
+  float: left;
   text-transform: uppercase;
 }
 
