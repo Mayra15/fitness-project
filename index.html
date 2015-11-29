@@ -11,21 +11,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
-    $('.flexslider').flexslider({
-          animation: "slide",
-          controlsContainer: ".flex-container"
+    $('#main-slider').flexslider({
+      animation: 'slide',
+      controlsContainer: '.flex-container'
     });
+     
+    $('#secondary-slider').flexslider();
   });
 </script>
 </head>
 
 <body>
 <div class="first">
-  <div class="top">
+  <div class="top pull-left">
     <img src="images/sd-logo.png">
   </div>
   <!--Dropdown menu -->
-    <div class="dropdown">
+    <div class="dropdown pull-left">
       <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
   Fitness
     <span class="caret"></span>
@@ -125,34 +127,41 @@
 </div>
 <!--class listing section -->
 <div class="container-fluid">
-    <div class="container">
-      <aside class="popular">
-        <h3>Popular Classes</h3>
+  <article class="popular pull-left">
+    <header>
+      <h3>Popular Classes</h3>
+    </header>
+        <br>
           <p>Why not give one of these popular classes a look?</p>
+  </article>
+        
 
 <!--first flexslider-->
-
-<div class="flexslider">
-  <ul class="slides">
-    <li>
-      <img src="images/bodycombat.jpg"/>
-    </li>
-    <li>
-      <img src="images/yoga.jpg"/>
-    </li>
-    <li>
-      <img src="images/zumba.jpg"/>
-    </li>
-    <li>
-      <img src="images/boxing.jpg"/>
-    </li>
-    <li>
-      <img src="images/pilates.jpg"/>
-    </li>
-    <li>
-      <img src="images/bodyattack.jpg"/>
-    </li>
-  </ul>
+<div class="row">
+  <div class="col-md-12">
+    <div id="main-slider" class="flexslider clearfix">
+      <ul class="slides">
+          <li>
+           <img class="img-responsive" src="images/bodycombat.jpg"/>
+          </li>
+          <li>
+            <img class="img-responsive" src="images/yoga.jpg"/>
+         </li>
+         <li>
+            <img class="img-responsive" src="images/zumba.jpg"/>
+          </li>
+          <li>
+            <img class="img-responsive" src="images/boxing.jpg"/>
+          </li>
+          <li>
+            <img class="img-responsive" src="images/pilates.jpg"/>
+          </li>
+          <li>
+            <img class="img-responsive" src="images/bodyattack.jpg"/>
+          </li>
+      </ul>
+    </div>
+  </div>
 </div>
    
 
@@ -164,13 +173,14 @@
 <!--second flexslider-->
 
 <div class="container">
-<div class="row">
-  <aside class= "trainers">
-    <h3>Trainers</h3>
-    <p>Body Attack</p>
-  </aside>
-
-<div class="flexslider">
+ <article class="trainers pull-left">
+    <header>
+      <h3>Trainers</h3>
+    </header>
+        <br>
+          <p>Body Attack</p>
+  </article>
+<div id="secondary-slider" class="flexslider">
   <ul class="slides">
     <li>
       <img src="images/mikedoe.jpg"/>

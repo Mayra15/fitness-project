@@ -103,7 +103,6 @@ span {
 .popular {
   background-color: black;
   color: white;
-  float: left;
   position: absolute;
   height: 400px;
   padding: 20px 0;
@@ -114,67 +113,20 @@ span {
   color: gray;
 }
 
-/*.arrows ul li {
-  display: inline;
-
-}
-
-.arrows .left {
-  background-image: none;
-  border:0;
-}
-
-.arrows .right {
-  background-image: none;
-  border: 0;
-}
-*/
-
-
-
-#carousel-1 .left {
-  background-image: none;
-  border:0;
-}
-
-#carousel-1 .right {
-  background-image: none;
-  border:0;
-}
-
-#carousel-1 {
-  padding-bottom: 20px;
-  float: right;
-}
-
+.flexslider ul, li {
+  display: inline-block;
+  list-style: none;
 
 }
 
 .trainers {
   background-color: #87bd65;
-  color: white;
-  float: left;
+  color: gray;
   position: absolute;
   height: 200px;
   padding: 20px 0;
   width:  180px;
 }
-
-#carousel-2 .left {
-  background-image: none;
-  border:0;
-}
-
-#carousel-2 .right {
-  background-image: none;
-  border:0;
-}
-
-#carousel-2 {
-  padding-bottom: 20px;
-  float: right;
-}
-
 
 footer {
   background-color: black;
@@ -198,17 +150,6 @@ aside {
   padding-top: 20px; 
   display: inline;
 }
-
-/*.dot {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background-color: #87BD65;
-  padding-right: 20px;
-  margin-top: 8px;
-  display: inline-block;
-}
-*/
 
 .fa-phone, .fa-thumbs-o-up {
   color: white;
