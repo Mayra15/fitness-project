@@ -113,9 +113,10 @@ span {
   color: gray;
 }
 
-.flexslider ul, li {
+#main-slider ul, li {
   display: inline-block;
   list-style: none;
+  padding-right: 20px;
 
 }
 
